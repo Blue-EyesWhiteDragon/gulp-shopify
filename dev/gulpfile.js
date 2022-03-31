@@ -8,7 +8,7 @@ const cleanCss = require(`gulp-clean-css`);
 const concat = require(`gulp-concat`);
 const rename = require(`gulp-rename`);
 const replace = require(`gulp-replace`);
-const sass = require(`gulp-sass`);
+const sass = require(`gulp-sass`)(require(`node-sass`));
 const uglify = require(`gulp-uglify`);
 const scssLint = require(`gulp-scss-lint`);
 
@@ -57,7 +57,7 @@ const jsFiles = [
 gulp.task(`js`, () => {
     return gulp.src(jsFiles)
         .pipe(babel({
-            presets: [`@babel/preset-env`]
+            presets: [`@babel/env`]
         }))
         .pipe(concat(`theme.js`))
         .pipe(uglify())

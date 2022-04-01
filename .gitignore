@@ -1,0 +1,63 @@
+# ignore all files starting with . or ~
+.*
+~*
+
+# ignore project files/directories
+node_modules/
+dev/package-lock.json
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+*.vs-code
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore package.json in main dir
+package*.json
+
+# ignore assets/internal until deploy
+assets/**
+
+# -------------------------
+# BEGIN Whitelisted Files
+# -------------------------
+
+# track these files, if they exist
+!.gitignore
+!.gitkeep
+!.editorconfig
+!README.md
+!CHANGELOG.md
+!composer.json
+!.scss-lint.yml
+!.shopifyignore
+!.theme-check.yml
+!dev/package.json
+!dev/gulpfile.js

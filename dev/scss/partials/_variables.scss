@@ -1,12 +1,40 @@
-// --------------------------------------------------
-// colours
+/*
+ *
+ */
 
-$color-black:                   #000;
-$color-grey:                    #ccc;
-$color-white:                   #fff;
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
 
-// links
+$blue:    rgb(46, 163, 242);
+$indigo:  rgb(102, 16, 242);
+$purple:  rgb(76, 46, 242);
+$pink:    rgb(223, 46, 242);
+$red:     rgb(254, 35, 46);
+$orange:  rgb(255, 102, 0);
+$yellow:  rgb(248, 243, 43);
+$green:   rgb(35, 209, 93);
+$teal:    rgb(32, 201, 151);
+$cyan:    rgb(13, 202, 240);
 
-$link-color:                    $color-black;
-$link-hover-color:              lighten($link-color, 5);
-$link-active-color:             lighten($link-color, 10);
+$indigo_CMYK : rgb(56, 73, 158);
+
+$primary:       $blue;
+$secondary:     $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-900;
+
+$color-contrast-dark:      $black;
+$color-contrast-light:     $white;

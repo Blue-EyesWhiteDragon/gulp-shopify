@@ -103,12 +103,12 @@ function BuildTypeScript ( done ) {
 /* Gulp Tasks */
 
 function WatchSCSS ( done ) {
-    gulp.watch(paths.scss + "**/*.{scss,scss.liquid}", gulp.series(BuildSCSS));
+    gulp.watch(paths.scss + "**/*.{scss,scss.liquid}", BuildSCSS);
     done();
 }
 
 function WatchTypeScript ( done ) {
-    gulp.watch(paths.typescript + "**/*.ts", gulp.series(BuildTypeScript));
+    gulp.watch(paths.typescript + "**/*.ts", BuildTypeScript);
     done();
 }
 

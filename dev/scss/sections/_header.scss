@@ -2,14 +2,19 @@
  *
  */
 
-#logo {
+#header {
+    background-color: $indigo_CMYK !important;
+    &-logo {
+        height: 48px;
+        color: $white;
 
-    height: 48px;
-    color: $color-white;
+        svg {
+            fill: currentColor;
+            height: 100%;
 
-    svg {
-        fill: currentColor;
-        height: 100%;
+            &:hover {
+                fill: $primary;
+            }
+        }
     }
-
 }

@@ -1,0 +1,212 @@
+.Group_1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 3000px;
+    height: 3000px;
+    z-index: 20;
+}
+.Dark_Violet {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(16, 16, 42);
+    position: absolute;
+    left: 0px;
+    top: 2448px;
+    width: 2999px;
+    height: 551px;
+    z-index: 19;
+}
+.CYMK_Violet {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(56, 73, 158);
+    position: absolute;
+    left: 1516px;
+    top: 2132px;
+    width: 1451px;
+    height: 267px;
+    z-index: 18;
+}
+.RGB_Violet {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(59, 34, 238);
+    position: absolute;
+    left: 32px;
+    top: 2132px;
+    width: 1451px;
+    height: 267px;
+    z-index: 17;
+}
+.CYMK_Indigo {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(60, 80, 162);
+    position: absolute;
+    left: 1516px;
+    top: 1832px;
+    width: 1451px;
+    height: 267px;
+    z-index: 16;
+}
+.RGB_Indigo {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(76, 46, 242);
+    position: absolute;
+    left: 32px;
+    top: 1832px;
+    width: 1451px;
+    height: 267px;
+    z-index: 15;
+}
+.CYMK_Pink {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(214, 99, 166);
+    position: absolute;
+    left: 1516px;
+    top: 1532px;
+    width: 1451px;
+    height: 267px;
+    z-index: 14;
+}
+.RGB_Pink {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(223, 46, 242);
+    position: absolute;
+    left: 32px;
+    top: 1532px;
+    width: 1451px;
+    height: 267px;
+    z-index: 13;
+}
+.CYMK_Blue {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(73, 158, 215);
+    position: absolute;
+    left: 1516px;
+    top: 1232px;
+    width: 1451px;
+    height: 267px;
+    z-index: 12;
+}
+.RGB_Blue {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(46, 163, 242);
+    position: absolute;
+    left: 32px;
+    top: 1232px;
+    width: 1451px;
+    height: 267px;
+    z-index: 11;
+}
+.CYMK_Green {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(54, 181, 83);
+    position: absolute;
+    left: 1516px;
+    top: 932px;
+    width: 1451px;
+    height: 267px;
+    z-index: 10;
+}
+.RGB_Green {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(35, 209, 93);
+    position: absolute;
+    left: 32px;
+    top: 932px;
+    width: 1451px;
+    height: 267px;
+    z-index: 9;
+}
+.CYMK_Yellow {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(244, 235, 56);
+    position: absolute;
+    left: 1516px;
+    top: 632px;
+    width: 1451px;
+    height: 267px;
+    z-index: 8;
+}
+.RGB_Yellow {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(248, 243, 43);
+    position: absolute;
+    left: 32px;
+    top: 632px;
+    width: 1451px;
+    height: 267px;
+    z-index: 7;
+}
+.CYMK_Orange {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(242, 109, 19);
+    position: absolute;
+    left: 1516px;
+    top: 332px;
+    width: 1451px;
+    height: 267px;
+    z-index: 6;
+}
+.RGB_Orange {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 102, 0);
+    position: absolute;
+    left: 32px;
+    top: 332px;
+    width: 1451px;
+    height: 267px;
+    z-index: 5;
+}
+.CYMK_Red {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(238, 48, 53);
+    position: absolute;
+    left: 1516px;
+    top: 32px;
+    width: 1451px;
+    height: 267px;
+    z-index: 4;
+}
+.RGB_Red {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(254, 35, 46);
+    position: absolute;
+    left: 32px;
+    top: 32px;
+    width: 1451px;
+    height: 267px;
+    z-index: 3;
+}

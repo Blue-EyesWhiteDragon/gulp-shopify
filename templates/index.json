@@ -1,13 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Print.png"
-      }
-    }
   },
-  "order": [
-    "main"
-  ]
+  "order": []
 }

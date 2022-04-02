@@ -1,9 +1,6 @@
-<footer id="footer" class="bg-light text-center text-lg-start">
-    <!-- Grid container -->
+<footer id="footer" class="text-white text-center text-lg-start">
     <div class="container p-4">
-        <!--Grid row-->
         <div class="row">
-            <!--Grid column-->
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
                 <h5 class="text-uppercase">Footer text</h5>
                 <p>
@@ -12,9 +9,6 @@
                     aliquam voluptatem veniam, est atque cumque eum delectus sint!
                 </p>
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
                 <h5 class="text-uppercase">Footer text</h5>
                 <p>
@@ -23,17 +17,10 @@
                     aliquam voluptatem veniam, est atque cumque eum delectus sint!
                 </p>
             </div>
-            <!--Grid column-->
         </div>
-        <!--Grid row-->
     </div>
-    <!-- Grid container -->
-
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        <span id="$year">...</span>
-        <a class="text-dark" href="https://ared.scot">A Roman Empire Divided</a>
-        <script id="$year$setter">a=document.getElementById("$year");a.innerHTML="&copy; "+(new Date).getFullYear(),a.removeAttribute("id"),document.getElementById("$year$setter").remove();delete a;</script>
+    <div class="bottom-bar text-center p-3">
+        <span id="$year">{{ date : %y }}</span>
+        <a class="text-white" href="https://ared.scot">A Roman Empire Divided</a>
     </div>
-    <!-- Copyright -->
 </footer>

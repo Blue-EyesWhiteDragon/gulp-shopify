@@ -1,16 +1,9 @@
 {
   "sections": {
     "main": {
-      "type": "carousel",
+      "type": "main-image",
       "settings": {
-        "first_slide_image": "shopify:\/\/shop_images\/Print.png",
-        "first_slide_text": "First slide text",
-        "first_slide_text_descriptor": "Some representative placeholder content.",
-        "second_slide_text": "Second slide text",
-        "second_slide_text_descriptor": "Some representative placeholder content.",
-        "third_slide_text": "Third slide text",
-        "third_slide_text_descriptor": "Some representative placeholder content.",
-        "id": "main"
+        "image": "shopify:\/\/shop_images\/Print.png"
       }
     }
   },

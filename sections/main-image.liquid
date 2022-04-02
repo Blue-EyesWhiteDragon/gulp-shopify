@@ -1,0 +1,18 @@
+<img src="{{ section.settings.image | img_url: '2600x1000', crop: 'top' }}"
+class="img-fluid"
+alt="{{ section.settings.image.alt }}"></img>
+
+{% schema %}
+
+{
+    "name" : "Image Header",
+    "settings" : [
+        {
+            "id" : "image",
+            "type" : "image_picker",
+            "label" : "Image"
+        }
+    ]
+}
+
+{% endschema %}

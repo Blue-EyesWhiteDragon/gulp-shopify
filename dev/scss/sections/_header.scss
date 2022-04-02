@@ -12,8 +12,10 @@
             fill: currentColor;
             height: 100%;
 
+            transition: fill .2s ease-in-out;
+
             &:hover {
-                fill: $primary;
+                fill: darken($indigo_CMYK, 22%);
             }
         }
     }

@@ -67,7 +67,7 @@ function BuildSCSS ( done ) {
         .pipe($.replace(`}}"`, "}}"))
         .pipe($.cleanCss())
             .on("error", log)
-        .pipe(gulp.dest(paths.build + "/assets/"))
+        .pipe(gulp.dest(paths.build))
     ;
 
     done();

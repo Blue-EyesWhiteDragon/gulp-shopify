@@ -1,26 +1,26 @@
 <footer id="footer" class="text-white text-center text-lg-start">
     <div class="container p-4">
         <div class="row">
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Footer text</h5>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                    aliquam voluptatem veniam, est atque cumque eum delectus sint!
-                </p>
-            </div>
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Footer text</h5>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                    aliquam voluptatem veniam, est atque cumque eum delectus sint!
-                </p>
-            </div>
+            <nav class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Essentials</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="text-white" href="#" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a class="text-white" href="#">Shop</a></li>
+                    <li class="nav-item"><a class="text-white" href="#">Login/Register</a></li>
+                </ul>
+            </nav>
+            <nav class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Need something else?</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="text-white" href="#">About ARED</a></li>
+                    <li class="nav-item"><a class="text-white" href="#">Contact ARED</a></li>
+                    <li class="nav-item"><a class="text-white" id="gaelic-english-switch" href="#" lang="gd_GB">Gàidhlig na h-Alba</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
     <div class="bottom-bar text-center p-3">
-        <span id="$year">{{ date : %y }}</span>
+        <span>&copy; {{ 'today' | date: '%Y' }}</span>
         <a class="text-white" href="https://ared.scot">A Roman Empire Divided</a>
     </div>
 </footer>

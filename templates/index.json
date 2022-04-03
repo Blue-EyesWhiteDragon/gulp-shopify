@@ -1,5 +1,11 @@
 {
   "sections": {
+    "main-landing" : {
+      "type" : "main-landing",
+      "settings" : {}
+    }
   },
-  "order": []
+  "order": [
+    "main-landing"
+  ]
 }

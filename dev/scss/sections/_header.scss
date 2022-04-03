@@ -22,7 +22,7 @@
 
     .nav-link {
         position: relative;
-        & [aria-label="active"] {
+        & [aria-current="page"] {
             &::after {
                 display: block;
                 position: absolute;

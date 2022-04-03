@@ -1,0 +1,33 @@
+<div id="main-landing-heading-image"
+    class="container-fluid p-0">
+    <img src="{{ 'print_shopify_header_desktop.png' | asset_img_url: '2048x' }}"
+    class="d-none d-lg-block img-fluid"
+    alt="Scottish. Sound. Design. | ARED.SCOT"></img>
+    <img src="{{ 'print_shopify_header_mobile.png' | asset_img_url: '2048x' }}"
+    class="d-lg-none img-fluid"
+    alt="Scottish. Sound. Design. | ARED.SCOT"></img>
+</div>
+<main id="main-landing-content"
+    class="container-fluid p-0">
+
+</main>
+
+{% schema %}
+
+{
+    "name" : "Landing Page",
+    "settings" : [],
+    "blocks" : [
+        {
+            "name" : "Header Image",
+            "type" : "landing_page_header_image",
+            "settings" : [{
+                "id" : "landing_page_header_image_img",
+                "type" : "image_picker",
+                "label" : "Header Image"
+            }]
+        }
+    ]
+}
+
+{% endschema %}

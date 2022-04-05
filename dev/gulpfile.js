@@ -10,6 +10,8 @@
  *
  */
 
+/*  Note that due to Node 16 being LTS, this means downgrading to Node 12 is required to make Gulp.Watch work */
+
 "use strict";
 
 /* depedencies */

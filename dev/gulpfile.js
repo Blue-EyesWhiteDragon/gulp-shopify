@@ -111,12 +111,16 @@ function BuildTypeScript ( done ) {
 /* Gulp Tasks */
 
 function WatchSCSS ( done ) {
-    gulp.watch(paths.scss + "**/*.{scss,scss.liquid}", BuildSCSS);
+    gulp.watch(paths.scss + "/**/*.{scss,scss.liquid}")
+        .on("change", BuildSCSS)
+    ;
     done();
 }
 
 function WatchTypeScript ( done ) {
-    gulp.watch(paths.typescript + "**/*.ts", BuildTypeScript);
+    gulp.watch(paths.typescript + "/**/*.ts")
+        .on("change", BuildTypeScript)
+    ;
     done();
 }
 

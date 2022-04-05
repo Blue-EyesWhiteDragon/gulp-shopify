@@ -22,6 +22,8 @@
                 {% when "carousel_slide" %}
                     <div class="carousel-item {% if forloop.first == true %} active {% endif %}">
                         <img src="{{ block.settings.slide_image | img_url: '1024x' }}"
+                            height=""
+                            width=""
                             class="d-block w-100"
                             alt="{{}}"></img>
                         <div class="carousel-caption d-none d-md-block">

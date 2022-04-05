@@ -50,7 +50,7 @@ const paths = {
 
 function BuildSCSS ( done ) {
 
-    gulp.src(paths.scss + "/*.scss.liquid")
+    gulp.src([paths.scss + "/*.scss.liquid", paths.scss + "/*.scss"])
         .pipe($$({
             outputStyle: "expanded"
         })
@@ -60,13 +60,21 @@ function BuildSCSS ( done ) {
         ]))
             .on("error", log)
         .pipe($.rename((path) => {
-            path.basename = path.basename.replace(".scss", ".css");
-            path.extname = ".liquid";
+            if ( path.extname.indexOf(".liquid") >= -1 ) {
+                path.basename = path.basename.replace(".scss", ".css");
+                path.extname = ".liquid";
+            }
+            else {
+                path.extname = ".css";
+            }
         }))
         .pipe($.replace(`"{{`, "{{"))
         .pipe($.replace(`}}"`, "}}"))
         .pipe($.cleanCss())
             .on("error", log)
+        /*.pipe($.rename((path) => {
+            path.basename += ".min";
+        }))*/
         .pipe(gulp.dest(paths.build))
     ;
 

@@ -39,6 +39,9 @@ Thumbs.db
 *.tar
 *.zip
 
+# ignore dev node_modules failsafe
+dev/node_modules/
+
 # ignore package.json in main dir
 package*.json
 

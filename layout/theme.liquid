@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="canonical" href="{{ canonical_url }}">
+        <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
         <title>{{ page_title }}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}</title>
     
         {% if page_description %}
@@ -23,16 +24,17 @@
         {{ content_for_header }}
     
         {{ "theme.css" | asset_url | stylesheet_tag }}
+
+        <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script> 
+        <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
     </head>
     
     <body class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: ".", " " | truncatewords: 1, "" | handle }}{% if template.suffix != blank %} template-suffix-{{ template.suffix }}{% endif %}{% if template contains "customers" %} template-customer-area{% endif %}">
         {% render "_svgs" %}
         {% section "header" %}
-        {{ content_for_layout }}
+        <main id="main-landing-content" class="container-fluid p-0">
+            {{ content_for_layout }}
+        </main>
         {% section "footer" %}
-        
-        <script>window.shopURL = "{{}}"</script>
-        <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script> 
-        <script src="{{ 'theme.js' | asset_url }}" defer></script>
     </body>
 </html>

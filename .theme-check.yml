@@ -9,6 +9,7 @@ include_categories: []
 exclude_categories: []
 
 ignore:
+  - dev/node_modules/*
   - node_modules/*
 
 ConvertIncludeToRender:

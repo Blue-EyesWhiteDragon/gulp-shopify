@@ -32,9 +32,15 @@
 
 #### Version 0.6 ####
 
+* Account Pages ❌
+
 #### Version 0.7 ####
 
+* Parallax Landing page ❌
+
 #### Version 0.8 ####
+
+* Branding Landing page ❌
 
 #### Version 0.9 ####
 

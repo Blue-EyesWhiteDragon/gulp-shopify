@@ -1,6 +1,26 @@
-<main id="main-landing-content"
-    class="container-fluid p-0">
-</main>
+<div id="main-landing-heading"
+    class="container-fluid px-3 py-5 text-white">
+    <div class="row container gx-0 gy-0 m-auto">
+        <ul class="col w-50 m-0 text-uppercase">
+            <li class="h1">Scottish.</li>
+            <li class="h1">Sound.</li>
+            <li class="h1">Design.</li>
+            <li class="h6">Welcome To Ared.Scot</li>
+        </ul>
+        <div class="col w-50 m-0 text-uppercase">
+            <img src="{{ 'Flag_map_of_Scotland.svg' | asset_url }}"
+                class="img-fluid"
+                height=""
+                width=""
+                loading="lazy">
+            </img>
+        </div>
+    </div>
+</div>
+
+{% comment %}
+Start with static content then refactor into dynamic section/blocks
+{% endcomment %}
 
 {% schema %}
 

@@ -10,8 +10,6 @@
  *
  */
 
-/*  Note that due to Node 16 being LTS, this means downgrading to Node 12 is required to make Gulp.Watch work */
-
 "use strict";
 
 /* depedencies */
@@ -32,9 +30,13 @@ const log          = require("fancy-log");
 const del          = require("del")
 const path         = require("path");
 
+const gulpWatchN16 = require("./gulp-watch-n16")
+
 /* Extensions */
 
 const $$ = $.sass(sassCompiler);
+
+//gulp.watch = gulpWatchN16(gulp); // Chokidar 3 implementation
 
 /* Constant modifiers */
 
@@ -113,15 +115,13 @@ function BuildTypeScript ( done ) {
 /* Gulp Tasks */
 
 function WatchSCSS ( done ) {
-    gulp.watch(paths.scss + "/**/*.{scss,scss.liquid}")
-        .on("change", BuildSCSS)
+    gulp.watch(paths.scss + "/**/*.{scss,scss.liquid}", BuildSCSS)
     ;
     done();
 }
 
 function WatchTypeScript ( done ) {
-    gulp.watch(paths.typescript + "/**/*.ts")
-        .on("change", BuildTypeScript)
+    gulp.watch(paths.typescript + "/**/*.ts", BuildTypeScript)
     ;
     done();
 }

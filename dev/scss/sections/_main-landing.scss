@@ -1,0 +1,49 @@
+/*******************************************************
+ * Author: John Andrew Loudon                          *
+ * (c) 2022 A Roman Empire Divided, John Andrew Loudon *
+ *                                                     *
+ *******************************************************/
+
+#main-landing-heading {
+
+    background: $indigo_CMYK;
+
+    ul {
+
+        list-style: none;
+
+        .h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+
+            @include media-breakpoint-only(md) {
+                font-size: 3rem;
+            }
+
+            @include media-breakpoint-between(lg, xxl) {
+                font-size: 5rem;
+            }
+
+            @include media-breakpoint-up(xxl) {
+                font-size: 7rem;
+            }
+        }
+
+        .h6 {
+
+            @include media-breakpoint-only(md) {
+                font-size: 2.5rem;
+            }
+
+            @include media-breakpoint-between(lg, xxl) {
+                font-size: 3rem;
+            }
+
+            @include media-breakpoint-up(xxl) {
+                font-size: 5rem;
+            }
+
+        }
+
+    }
+}

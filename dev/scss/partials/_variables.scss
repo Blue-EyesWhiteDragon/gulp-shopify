@@ -27,6 +27,9 @@ $cyan:    rgb(13, 202, 240);
 
 $indigo_CMYK : rgb(56, 73, 158);
 
+$gradient1 : linear-gradient(45deg, $indigo_CMYK, rebeccapurple);
+$gradient2 : linear-gradient(45deg, $indigo_CMYK, $indigo);
+
 $primary:       $blue;
 $secondary:     $gray-600;
 $success:       $green;

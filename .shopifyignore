@@ -4,3 +4,5 @@
 dev/*
 package*.json
 shopify-login.sh
+shopify-push.sh
+shopify-serve.sh

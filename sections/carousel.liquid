@@ -21,11 +21,12 @@
             {% case block.type %}
                 {% when "carousel_slide" %}
                     <div class="carousel-item {% if forloop.first == true %} active {% endif %}">
-                        <img src="{{ block.settings.slide_image | img_url: '1024x' }}"
+                        <img src="{{ block.settings.slide_image | image_url: '1024x' }}"
                             height=""
                             width=""
                             class="d-block w-100"
-                            alt="{{}}"></img>
+                            alt="{{}}"
+                            loading="lazy"></img>
                         <div class="carousel-caption d-none d-md-block">
                             <h5>{{ block.settings.slide_text }}</h5>
                             <p>{{ block.settings.slide_text_descriptor }}</p>

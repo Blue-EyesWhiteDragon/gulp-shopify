@@ -8,10 +8,15 @@
 @import "partials/variables";
 
 // Bootstrap & Bootstrap Icons
-// Imports all of Bootstrap, switch to grid and reboot only and load in modular as sections are required
+// Imports all of Bootstrap, eventually switch to grid and reboot only and load in modular as sections are required
+
+
+$bootstrap-icons-font-src: url("{{ 'bootstrap-icons.woff' | asset_url }}") format("woff2"),
+url("{{ 'bootstrap-icons.woff' | asset_url }}") format("woff");
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+
 
 // Mixins
 @import "mixins/helpers";
@@ -22,6 +27,7 @@
 @import "partials/fonts";
 @import "partials/base";
 @import "partials/type";
+@import "partials/dev";
 
 // Theme Sections
 

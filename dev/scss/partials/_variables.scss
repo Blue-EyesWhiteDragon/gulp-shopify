@@ -30,7 +30,7 @@ $indigo_CMYK : rgb(56, 73, 158);
 $gradient1 : linear-gradient(45deg, $indigo_CMYK, rebeccapurple);
 $gradient2 : linear-gradient(45deg, $indigo_CMYK, $indigo);
 
-$primary:       $blue;
+$primary:       $indigo_CMYK;
 $secondary:     $gray-600;
 $success:       $green;
 $info:          $cyan;

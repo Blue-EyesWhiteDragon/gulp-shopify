@@ -41,6 +41,8 @@ Thumbs.db
 
 # ignore build scripts
 shopify-login.sh
+shopify-push.sh
+shopify-serve.sh
 gulp-watch-n16/
 
 # ignore dev node_modules failsafe

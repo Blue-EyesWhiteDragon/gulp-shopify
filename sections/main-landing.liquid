@@ -1,22 +1,85 @@
-<div id="main-landing-heading"
-    class="container-fluid px-3 py-5 text-white">
-    <div class="row container gx-0 gy-0 m-auto">
-        <ul class="col w-50 m-0 text-uppercase">
-            <li class="h1">Scottish.</li>
-            <li class="h1">Sound.</li>
-            <li class="h1">Design.</li>
-            <li class="h6">Welcome To Ared.Scot</li>
-        </ul>
-        <div class="col w-50 m-0 text-uppercase">
-            <img src="{{ 'Flag_map_of_Scotland.svg' | asset_url }}"
-                class="img-fluid"
-                height=""
-                width=""
-                loading="lazy">
-            </img>
+<div id="main-landing" class="container-fluid">
+    <div id="main-landing-heading" class="row px-3 px-lg-5 py-4 py-md-5 text-white">
+        <div class="container col row w-100 gx-0 gy-0 p-0 m-0">
+            <ul class="col text-uppercase">
+                <li class="h1 fw-bold">Scottish.</li>
+                <li class="h1 fw-bold">Sound.</li>
+                <li class="h1 fw-bold">Design.</li>
+                <li class="h6">Welcome To Ared.Scot</li>
+            </ul>
+            <div class="col text-uppercase">
+                <img src="{{ 'Flag_map_of_Scotland.svg' | asset_url }}" class="img-fluid" height="" width=""
+                    loading="lazy">
+                </img>
+            </div>
+        </div>
+    </div>
+    <div id="main-landing-products" class="row px-3 px-lg-5 py-5 text-white">
+        <div class="container col row w-100 gx-2 gy-4 p-0 m-0">
+            <div class="col-md">
+                <div class="card landing-product text-center">
+                    <div class="card-img-top">
+                        <i class="bi bi-bar-chart-fill"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-uppercase">Mixing Services</h5>
+                        <p class="card-text">Professional mixing services with adjustable delivery times depending on your needs!</p>
+                        <a href="#" class="btn btn-outline-light" role="button" aria-roledescription="button">Check it out!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card landing-product text-center">
+                    <div class="card-img-top">
+                        <i class="bi bi-filetype-wav"></i>
+                        <i class="bi bi-music-note-list d-none"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-uppercase">Sample & Preset Packs</h5>
+                        <p class="card-text">Our infamous Sound Cartridges are available to beefen up your sample library!<br/>(and of course they are all <strong>royalty free</strong>)</p>
+                        <a href="#" class="btn btn-outline-light" role="button" aria-roledescription="button">Check it out!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card landing-product text-center">
+                    <div class="card-img-top">
+                        <i class="bi bi-mic"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-uppercase">Recording & Production Services</h5>
+                        <p class="card-text">Need to book a space to record a demo?<br />We've got you covered, see our packages and rates below!</p>
+                        <a href="#" class="btn btn-outline-light" role="button" aria-roledescription="button">Check it out!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main-landing-description" class="row px-3 px-lg-5 py-4 py-md-5 text-white">
+        <div class="container col row w-100 gx-2 gy-4 p-0 m-0">
+            <div class="col row w-100 m-0">
+                <div id="main-landing-description-left" class="col-md">
+                    <h3>We are A Roman Empire Divided</h3>
+                    <h5>Based in Glasgow, Scotland</h5>
+                    <p>We try to nuture the sound and talent of upcoming and new artists to reach their full potential.</p>
+                    <p>We provide recording, production and freelance services to help aide these goals.</p>
+                    <p>If all this sounds like it peaks your interest, feel free to:<br/><a class="text-white" href="#">browse our shop</a> or <a class="text-white" href="mailto:contact@ared.scot">contact us</a>!</p>
+                </div>
+                <div id="main-landing-description-right" class="col-md">
+                    <h3>What we believe</h3>
+                    <h5>For Scotland and beyond</h5>
+                    <p>We are a fervent believer in...</p>
+                    <p><a href="https://en.wikipedia.org/wiki/Libertarian_socialism" class="text-white">Democracy</a></p>
+                    <p><a href="https://en.wikipedia.org/wiki/Egalitarianism" class="text-white">Equality</a></p>
+                    <p><a href="https://plato.stanford.edu/entries/liberty-positive-negative/" class="text-white">Positive Freedom</a></p>
+                    <p>In politics, the home, and the workplace.</p>
+                    <h5>Click any of the above words to learn more</h5>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
 
 {% comment %}
 Start with static content then refactor into dynamic section/blocks
@@ -25,19 +88,19 @@ Start with static content then refactor into dynamic section/blocks
 {% schema %}
 
 {
-    "name" : "Landing Page",
-    "settings" : [],
-    "blocks" : [
-        {
-            "name" : "Header Image",
-            "type" : "landing_page_header_image",
-            "settings" : [{
-                "id" : "landing_page_header_image_img",
-                "type" : "image_picker",
-                "label" : "Header Image"
-            }]
-        }
-    ]
+"name" : "Landing Page",
+"settings" : [],
+"blocks" : [
+{
+"name" : "Header Image",
+"type" : "landing_page_header_image",
+"settings" : [{
+"id" : "landing_page_header_image_img",
+"type" : "image_picker",
+"label" : "Header Image"
+}]
+}
+]
 }
 
 {% endschema %}

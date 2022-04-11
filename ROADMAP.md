@@ -5,38 +5,37 @@
 #### Version 0.1 ####
 
 * Header UX ❌
-* Footer UX ❌
-* Landing page ❌
+* Footer UX ✔
+* Landing page ✔
+
+#### Version 0.2 ####
+
 * Products ❌
 * Products UX ❌
 
-#### Version 0.2 ####
+#### Version 0.3 ####
 
 * Payment processing ❌
 * Payment processing UX ❌
 
-#### Version 0.3 ####
+#### Version 0.4 ####
 
 * Product Options/Variants ❌
 * Product Options/Variants UX ❌
 * Product "from" UX ❌
 
-#### Version 0.4 ####
+#### Version 0.5 ####
 
 * Product Landing Page ❌
 * Product Landing Page UX ❌
 
-#### Version 0.5 ####
+#### Version 0.6 ####
 
 * Sale UX ❌
 
-#### Version 0.6 ####
-
-* Account Pages ❌
-
 #### Version 0.7 ####
 
-* Parallax Landing page ❌
+* Account Pages ❌
 
 #### Version 0.8 ####
 
@@ -63,4 +62,4 @@
 
 New `branch : hydrogen`
 
-* Hydrogen App ❌
+* Redesign site with Tailwind CSS into Hydrogen App ❌

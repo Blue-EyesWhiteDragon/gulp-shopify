@@ -7,7 +7,9 @@
 #footer {
     background-color: $indigo_CMYK;
 
+    border-top: 1px solid darken($indigo_CMYK, 5%);
+
     .bottom-bar {
-        background-color: darken($indigo_CMYK, 10%);
+        background-color: darken($indigo_CMYK, 5%);
     }
 }

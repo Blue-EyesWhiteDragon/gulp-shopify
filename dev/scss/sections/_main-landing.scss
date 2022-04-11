@@ -19,6 +19,7 @@
     }
 
     &-heading {
+        min-height: 500px;
         max-height: calc((100 * var(--vh)) - 80px);
 
         overflow-y: hidden;

@@ -23,6 +23,16 @@
         }
     }
 
+    input[type="search"]{
+
+        background: transparent;
+        color: white !important;
+
+        &::placeholder {
+            color: white !important;
+        }
+    }
+
     .nav-link {
         position: relative;
         & [aria-current="page"] {

@@ -1,0 +1,27 @@
+<style>
+    #header, #footer {
+        display: none;
+    }
+    #error-404 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: var(--bs-gray-900);
+        z-index: 9999;
+    }
+    #error-404 > :first-child {
+        padding: 5rem;
+    }
+    #error-404 * {
+        color: white !important;
+    }
+</style>
+<div id="error-404">
+    <div class="container">
+        <h1>Lost are we?</h1>
+        <h4>Sorry! We cannot find the page you're looking for!</h4>
+        <p>Click <a href="/" role="navigation">here</a> to return to the home page!</p>
+    </div>
+</div>

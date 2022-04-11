@@ -1,0 +1,42 @@
+<div class="container">
+    <div>
+        <div class="row">
+            <div class="col-md-12">{{ settings.artist_name }}</div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6"></div>
+        <div class="col-md-6"></div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+    "name" : "Artist Page",
+    "settings" : [
+        {
+            "label": "Artist Name",
+            "id" : "artist_name",
+            "type" : "text",
+            "default" : "An Artist"
+        }
+    ],
+    "blocks" : [
+        {
+            "name" : "Artist Heading Image",
+            "type" : "artist_heading_image",
+            "settings" : [
+                {
+                "id" : "artist_heading_image_img",
+                "type" : "image_picker",
+                "label" : "Header Image"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

@@ -1,0 +1,11 @@
+{
+    "sections": {
+      "main-landing" : {
+        "type" : "main-artist",
+        "settings" : {}
+      }
+    },
+    "order": [
+      "main-artist"
+    ]
+  }

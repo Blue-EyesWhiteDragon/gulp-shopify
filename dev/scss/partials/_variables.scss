@@ -14,16 +14,16 @@ $gray-800: #343a40;
 $gray-900: #212529;
 $black:    #000;
 
-$blue:    rgb(46, 163, 242);
-$indigo:  rgb(102, 16, 242);
-$purple:  rgb(76, 46, 242);
-$pink:    rgb(223, 46, 242);
-$red:     rgb(254, 35, 46);
-$orange:  rgb(255, 102, 0);
-$yellow:  rgb(248, 243, 43);
-$green:   rgb(35, 209, 93);
-$teal:    rgb(32, 201, 151);
-$cyan:    rgb(13, 202, 240);
+$blue:    #2ea3f2;
+$indigo:  #6610f2;
+$purple:  #4c2ef2;
+$pink:    #df2ef2;
+$red:     #fe232e;
+$orange:  #ff6600;
+$yellow:  #f8f32b;
+$green:   #23d15d;
+$teal:    #20c997;
+$cyan:    #0dccf2;
 
 $indigo_CMYK : rgb(56, 73, 158);
 
@@ -33,7 +33,7 @@ $gradient2 : linear-gradient(45deg, $indigo_CMYK, $indigo);
 $primary:       $indigo_CMYK;
 $secondary:     $gray-600;
 $success:       $green;
-$info:          $cyan;
+$info:          $blue;
 $warning:       $yellow;
 $danger:        $red;
 $light:         $gray-100;
